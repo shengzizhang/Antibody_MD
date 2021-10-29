@@ -5,11 +5,17 @@ These scripts are for running molecular dynamics simulation of antibody. We sugg
 
 To run MD simulation using MD.pl, please install the following software:
 CUDA (compatable with Amber installation)
+
 Amber (must be callable in commandline without absolute path, pmemd.cuda is required)
+
 FoldX (for generating mutations by MD.pl, optional)
+
 xmgrace (for plotting RMSD during MD simulation, optional)
+
 Torque (for submitting jobs to queue, required for running mutliple MD runs at the same time)
+
 MIPCH (for running pmemd.cuda.MPI, optional)
+
 
 run perl MD.pl to see parameters required.
 
