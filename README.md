@@ -20,10 +20,15 @@ If you prefer to generate Amber topology files using other methods, please name 
 The Traj.R script used R to analyze antibody features (VH-VL angle, elbow angle, buried accessible surface area, PCA, etc.) from MD trajectory.
 
 The script requires the following programs installed and can be called from command line.
+
 R packages: bio3d,ncdf4,igraph,ggplot2,gplots,reshape2
+
 PISA from ccp4 package: https://www.ccp4.ac.uk/ 
+
 PyMOL with elbow_angle script:https://pymolwiki.org/index.php/Elbow_angle
+
 ANARCI: http://opig.stats.ox.ac.uk/webapps/newsabdab/sabpred/anarci/#:~:text=ANARCI%20is%20a%20tool%20for,T%2Dcell%20receptor%20variable%20domains.&text=TCR%20sequences%20can%20only%20be,antibody%20and%20TCR%20domain%20types
+
 TMalign: https://zhanggroup.org/TM-align/
 
 To run the script, please first add the installation paths of the above programs to the Traj.R script.
